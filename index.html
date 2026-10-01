@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO & Metadatos Principales -->
+  <title>La Voz del Adorador | Taller de Capacitación</title>
+  <meta name="description"
+    content="La Voz del Adorador: un ámbito de formación para conocer al adorador de adoradores, Cristo por excelencia. Taller de capacitación, plenarias, altar de adoración y módulos prácticos.">
+  <meta name="keywords"
+    content="La Voz del Adorador, Taller de adoración, Adoración cristiana, Músicos y cantantes, Capacitación ministerial, Gutiérrez">
+  <meta name="author" content="La Voz del Adorador">
+
+  <!-- Open Graph para compartir en WhatsApp e Instagram -->
+  <meta property="og:title" content="La Voz del Adorador | Taller de Capacitación">
+  <meta property="og:description"
+    content="Un ámbito de formación para conocer al adorador de adoradores, Cristo por excelencia. Talleres de capacitación, plenarias y comunidad. ¡Que nada sea un impedimento para poder crecer!">
+  <meta property="og:image" content="img/hero_worship_bg.jpg">
+  <meta property="og:type" content="website">
+
+  <!-- Favicon simbólico -->
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🕊️</text></svg>">
+
+  <!-- Fuentes de Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Playfair+Display:ital,wght@0,600;0,700;0,800;0,900;1,600;1,700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- AOS.js (Animate On Scroll) -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+
+  <!-- Estilos del sitio -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <!-- ==========================================================================
+       HEADER & NAVEGACIÓN MINIMALISTA
+       ========================================================================== -->
+  <header class="site-header" id="site-header">
+    <div class="container">
+      <nav class="nav-inner">
+        <a href="#hero" class="brand-logo" aria-label="Inicio La Voz del Adorador">
+          <span class="brand-title">La Voz del Adorador</span>
+        </a>
+
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#proposito">Visión</a></li>
+          <li><a href="#talleres">Talleres</a></li>
+          <li><a href="#detalles">Ubicación</a></li>
+          <li><a href="#comunidad">Comunidad</a></li>
+        </ul>
+
+        <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Abrir menú de navegación"
+          aria-expanded="false">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       HERO SECTION A PANTALLA COMPLETA ULTRA MINIMALISTA
+       ========================================================================== -->
+  <section class="hero hero-fullscreen" id="hero">
+    <!-- Video de fondo minimalista a pantalla completa -->
+    <div class="hero-video-wrapper">
+      <video class="hero-video-bg" autoplay loop muted playsinline poster="img/hero_worship_bg.webp">
+        <source src="video/hero_video.webm" type="video/webm">
+        <source src="video/hero_video.mp4" type="video/mp4">
+      </video>
+      <div class="hero-overlay"></div>
+    </div>
+
+    <div class="container hero-container">
+      <div class="hero-content hero-minimalist">
+        <h1 class="hero-title hero-title-light" data-aos="fade-up" data-aos-duration="850">
+          La Voz del <span class="highlight-gold">ADORADOR</span>
+        </h1>
+
+        <div class="hero-script-lead handwritten text-sand" data-aos="fade-up" data-aos-delay="150"
+          data-aos-duration="850">
+          En su voz encontramos dirección ♡
+        </div>
+
+        <div class="hero-actions hero-actions-single" data-aos="fade-up" data-aos-delay="300" data-aos-duration="850">
+          <a href="#proposito" class="btn btn-primary btn-glow">
+            <span>Conocer Visión</span>
+            <i class="fa-solid fa-arrow-down" style="font-size: 0.85rem;"></i>
+          </a>
+        </div>
+
+        <!-- Indicador de desplazamiento sutil hacia abajo -->
+        <a href="#proposito" class="hero-scroll-indicator" aria-label="Desplazarse a la siguiente sección"
+          data-aos="fade-up" data-aos-delay="450">
+          <i class="fa-solid fa-chevron-down scroll-arrow-down"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       MARQUEE DEVOCIONAL CONTINUO
+       ========================================================================== -->
+  <div class="quote-marquee" aria-hidden="true">
+    <div class="marquee-content">
+      <div class="marquee-item"><span class="icon">✦</span> Cristo es el centro</div>
+      <div class="marquee-item"><span class="icon">✦</span> Adoración 24/7</div>
+      <div class="marquee-item"><span class="icon">✦</span> En su voz encontramos dirección</div>
+      <div class="marquee-item"><span class="icon">✦</span> Que nada sea un impedimento para crecer</div>
+      <div class="marquee-item"><span class="icon">✦</span> Corazones saludables ♡</div>
+      <div class="marquee-item"><span class="icon">✦</span> Más que una canción o un instrumento</div>
+      <div class="marquee-item"><span class="icon">✦</span> Cristo es el centro</div>
+      <div class="marquee-item"><span class="icon">✦</span> Adoración 24/7</div>
+      <div class="marquee-item"><span class="icon">✦</span> En su voz encontramos dirección</div>
+      <div class="marquee-item"><span class="icon">✦</span> Que nada sea un impedimento para crecer</div>
+      <div class="marquee-item"><span class="icon">✦</span> Corazones saludables ♡</div>
+      <div class="marquee-item"><span class="icon">✦</span> Más que una canción o un instrumento</div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       PROPÓSITO & FUNDAMENTO (COMPOSICIÓN EDITORIAL)
+       ========================================================================== -->
+  <section class="section foundation-section" id="proposito">
+    <div class="foundation-bleed-container">
+      <!-- Columna izquierda: Manifiesto y textos editoriales -->
+      <div class="foundation-text-col" data-aos="fade-right" data-aos-duration="850">
+        <!-- Kicker: — NUESTRA VISIÓN -->
+        <div class="foundation-kicker">
+          <span class="foundation-kicker-dash"></span>
+          <span class="foundation-kicker-text">NUESTRA VISIÓN</span>
+        </div>
+
+        <!-- Título principal -->
+        <h2 class="foundation-main-title">
+          El Fundamento de<br>Nuestra Adoración
+        </h2>
+
+        <!-- Subtítulo con barra vertical dorada -->
+        <div class="foundation-subtitle-bar">
+          Volviendo a la pureza del llamado y entendiendo que adorar trasciende todo escenario.
+        </div>
+
+        <!-- Cita destacada con 'Palabra de Dios' en ocre -->
+        <p class="foundation-lead-highlight">
+          Nuestro fundamento es la <span class="ochre-highlight">Palabra de Dios</span> que es viva y eficaz,
+          entendiendo que la adoración es un estilo de vida que nos llena de esperanza y plenitud eterna.
+        </p>
+
+        <!-- Párrafo de cuerpo 1 -->
+        <p class="foundation-body-p">
+          Podemos tener una voz técnicamente entrenada, al igual que destreza en un instrumento; pero nunca debemos
+          olvidar que en el centro absoluto debe estar la persona más importante: <strong>Cristo</strong>.
+        </p>
+
+        <!-- Párrafo de cuerpo 2 con barra vertical dorada -->
+        <div class="foundation-quote-bar">
+          Todo lo que anhelamos es <em>escuchar la voz de Dios</em> para ser direccionados. No se trata de un momento
+          dominical aislado, sino de una vida rendida 24/7 que emite la melodía del cielo hacia nuestra generación.
+        </div>
+
+        <!-- Fila de firma y ramo de olivo (ubicación original debajo del texto) -->
+        <div class="foundation-signature-row">
+          <div class="foundation-script-sign handwritten">
+            En su voz encontramos dirección ♡
+          </div>
+
+          <div class="foundation-olive-wrap">
+            <picture>
+              <source srcset="img/rama_olivo_transparent.webp" type="image/webp">
+              <img src="img/rama_olivo_transparent.png" alt="Ramo de olivo, símbolo de paz y comunión"
+                class="foundation-olive-img" loading="lazy" width="409" height="589">
+            </picture>
+          </div>
+        </div>
+      </div>
+
+      <!-- Columna derecha: Foto de la Biblia con corte en pincel seco y tarjeta flotante -->
+      <div class="foundation-visual-col" data-aos="fade-left" data-aos-duration="950">
+        <div class="foundation-composition">
+          <!-- Foto de la Biblia con corte rasgado en pincel seco y bleed completo a la derecha -->
+          <div class="bible-bleed-frame">
+            <picture>
+              <source srcset="img/bible_brush_transparent.webp" type="image/webp">
+              <img src="img/bible_brush_transparent.png"
+                alt="Biblia abierta sobre mesa rústica de madera con efecto rasgado en pincel seco"
+                class="bible-brush-img" loading="lazy" width="1096" height="768">
+            </picture>
+
+            <!-- Detalle artístico en la esquina inferior derecha: 'Adorar es vivir lo que creemos' -->
+            <div class="bible-bottom-accent" aria-hidden="true">
+              <div class="bible-accent-quote handwritten">
+                Adorar es vivir<br>lo que creemos
+              </div>
+            </div>
+          </div>
+
+          <!-- Tarjeta flotante superpuesta con los 3 pilares -->
+          <div class="foundation-floating-card" data-aos="fade-up" data-aos-delay="250" data-aos-duration="800">
+            <!-- Item 1: Palabra Viva & Eficaz -->
+            <div class="f-card-row">
+              <div class="f-circle-icon f-icon-ochre">
+                <i class="fa-solid fa-book-open"></i>
+              </div>
+              <div class="f-row-divider"></div>
+              <div class="f-row-content">
+                <h4>Palabra Viva & Eficaz</h4>
+                <p>Cimentados firmemente en las Escrituras como brújula inquebrantable.</p>
+              </div>
+            </div>
+
+            <!-- Item 2: Corazones Saludables -->
+            <div class="f-card-row">
+              <div class="f-circle-icon f-icon-olive">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+              <div class="f-row-divider"></div>
+              <div class="f-row-content">
+                <h4>Corazones Saludables</h4>
+                <p>Saneando el altar interior antes de ministrar ante las personas.</p>
+              </div>
+            </div>
+
+            <!-- Item 3: Adoración 24/7 -->
+            <div class="f-card-row">
+              <div class="f-circle-icon f-icon-navy">
+                <i class="fa-solid fa-infinity"></i>
+              </div>
+              <div class="f-row-divider"></div>
+              <div class="f-row-content">
+                <h4>Adoración <em>24/7</em></h4>
+                <p>Un estilo de vida continuo, no una simple presentación musical.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       ¿PARA QUIÉN ES LA VOZ DEL ADORADOR?
+       ========================================================================== -->
+  <section class="section section-bg-cream" id="para-quien">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up" data-aos-duration="750">
+        <div class="section-kicker">
+          <span class="section-kicker-dash"></span>
+          <span class="section-kicker-text">COMUNIDAD & PROPÓSITO</span>
+        </div>
+        <h2 class="section-title">¿Para quién es La Voz del Adorador?</h2>
+        <p class="section-subtitle">
+          Derribando límites: un ámbito ministerial pensado para edificar a cada hijo de Dios.
+        </p>
+      </div>
+
+      <div class="audience-wrapper">
+        <div class="audience-callout" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
+          <h3 class="callout-question">¿Es solo para músicos y cantantes?</h3>
+          <p class="callout-answer">
+            ¡No! Es para cantantes, músicos y toda la comunidad de hijos de Dios.
+          </p>
+          <p style="margin-top: 1rem; font-size: 1.05rem; color: var(--c-coffee-muted); line-height: 1.6;">
+            Es para todo aquel que sienta el llamado en su corazón de expresar a Cristo a través de la música y la
+            comunión. <strong>¡Que nada sea hoy un impedimento para poder crecer!</strong>
+          </p>
+        </div>
+
+        <div class="audience-cards">
+          <div class="aud-card" data-aos="fade-up" data-aos-delay="150" data-aos-duration="800">
+            <div class="aud-icon"><i class="fa-solid fa-microphone-lines"></i></div>
+            <h3>Cantantes & Salmistas</h3>
+            <p>
+              Para quienes desean pulir su voz con propósito eterno, aprendiendo a cantar desde la intimidad del Padre y
+              no solo desde la técnica.
+            </p>
+          </div>
+
+          <div class="aud-card" data-aos="fade-up" data-aos-delay="250" data-aos-duration="800">
+            <div class="aud-icon"><i class="fa-solid fa-guitar"></i></div>
+            <h3>Músicos & Instrumentistas</h3>
+            <p>
+              Para tecladistas, guitarristas, bateristas y músicos que buscan sintonizar sus notas con la atmósfera del
+              cielo y servir en unidad.
+            </p>
+          </div>
+
+          <div class="aud-card" data-aos="fade-up" data-aos-delay="350" data-aos-duration="800">
+            <div class="aud-icon"><i class="fa-solid fa-people-roof"></i></div>
+            <h3>Toda la Comunidad</h3>
+            <p>
+              Líderes, intercesores, servidores y todo creyente con el anhelo de profundizar en una vida rendida al
+              adorador de adoradores.
+            </p>
+          </div>
+        </div>
+
+        <!-- Cita bíblica de atmósfera / Cierre espiritual -->
+        <div class="audience-verse-container" data-aos="fade-up" data-aos-delay="200" data-aos-duration="850">
+          <div class="audience-verse-card">
+            <div class="verse-leaf-accent" aria-hidden="true">
+              <i class="fa-solid fa-feather-pointed"></i>
+            </div>
+            <div class="verse-handwritten handwritten">Tu vida entera fue creada para su gloria</div>
+            <blockquote class="verse-scripture-text">
+              “Todo lo que respira alabe al Señor. ¡Aleluya!”
+            </blockquote>
+            <div class="verse-meta">
+              <span class="verse-dash"></span>
+              <span class="verse-ref">Salmos 150:6</span>
+              <span class="verse-dash"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       TALLERES Y PLENARIAS (LO QUE VIVIREMOS)
+       ========================================================================== -->
+  <section class="section" id="talleres">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up" data-aos-duration="750">
+        <div class="section-kicker">
+          <span class="section-kicker-dash"></span>
+          <span class="section-kicker-text">PROGRAMA & DINÁMICAS</span>
+        </div>
+        <h2 class="section-title">Durante los Encuentros Viviremos</h2>
+        <p class="section-subtitle">
+          Una jornada integral pensada para edificar tu espíritu, nutrir tu corazón y capacitar tus dones prácticos.
+        </p>
+      </div>
+
+      <div class="experience-grid">
+        <div class="exp-item" data-aos="fade-up" data-aos-delay="100" data-aos-duration="750">
+          <div class="exp-icon-wrap"><i class="fa-solid fa-book-open"></i></div>
+          <h3>Plenarias</h3>
+          <p>Tiempos de enseñanza profunda e inspiración guiada por la Palabra.</p>
+        </div>
+
+        <div class="exp-item" data-aos="fade-up" data-aos-delay="180" data-aos-duration="750">
+          <div class="exp-icon-wrap"><i class="fa-solid fa-book-bookmark"></i></div>
+          <h3>Módulos de Estudio</h3>
+          <p>Herramientas prácticas, fundamentos y desarrollo ministerial.</p>
+        </div>
+
+        <div class="exp-item" data-aos="fade-up" data-aos-delay="260" data-aos-duration="750">
+          <div class="exp-icon-wrap"><i class="fa-solid fa-fire-flame-curved"></i></div>
+          <h3>Altar en Vivo</h3>
+          <p>Tiempo congregacional de búsqueda íntima y adoración espontánea.</p>
+        </div>
+
+        <div class="exp-item" data-aos="fade-up" data-aos-delay="340" data-aos-duration="750">
+          <div class="exp-icon-wrap"><i class="fa-solid fa-mug-hot"></i></div>
+          <h3>Break & Café</h3>
+          <p>Comunión fraternal, refrigerio y charlas para enriquecer el alma.</p>
+        </div>
+
+        <div class="exp-item" data-aos="fade-up" data-aos-delay="420" data-aos-duration="750">
+          <div class="exp-icon-wrap"><i class="fa-solid fa-comments"></i></div>
+          <h3>Dinámicas y Más</h3>
+          <p>Espacios participativos para compartir experiencias y orar juntos.</p>
+        </div>
+      </div>
+
+      <!-- Spotlight: Altar de Adoración en Vivo -->
+      <div class="altar-spotlight" data-aos="fade-up" data-aos-duration="850">
+        <div class="altar-img" data-aos="fade-right" data-aos-delay="150" data-aos-duration="850">
+          <picture>
+            <source srcset="img/imagen_real.webp" type="image/webp">
+            <img src="img/imagen_real.png"
+              alt="Comunidad reunida en los talleres y tiempos de formación de La Voz del Adorador" width="600"
+              height="400" loading="lazy">
+          </picture>
+        </div>
+        <div class="altar-content" data-aos="fade-left" data-aos-delay="200" data-aos-duration="850">
+          <div class="section-kicker" style="margin-bottom: 0.9rem;">
+            <span class="section-kicker-dash"></span>
+            <span class="section-kicker-text">ATMÓSFERA DE INTIMIDAD</span>
+          </div>
+          <h3>Un Altar Encendido en Comunidad</h3>
+          <p>
+            No se trata de un concierto, sino de un punto de encuentro donde derramamos nuestro corazón delante del Rey.
+            Viviremos tiempos de adoración genuina donde cada acorde y cada respiración buscan exclusivamente la gloria
+            de Cristo.
+          </p>
+          <div>
+            <a href="https://wa.me/5491138095667?text=%C2%A1Hola!%20Deseo%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20encuentros%20de%20La%20Voz%20del%20Adorador"
+              target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+              <i class="fa-solid fa-user-plus"></i>
+              <span>Quiero Participar</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       CITA PROFÉTICA (BANNER EMOTIVO)
+       ========================================================================== -->
+  <section class="prophetic-quote-section">
+    <div class="container">
+      <div class="quote-box" data-aos="fade-up" data-aos-duration="850">
+        <span class="handwritten">El Canto de las Naciones</span>
+        <blockquote>
+          “El Padre está cantando una canción que necesita ser escuchada en las naciones de la tierra... y nosotros ser
+          esos traductores de los tesoros de su corazón.”
+        </blockquote>
+        <div class="quote-author">— La Voz del Adorador</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       UBICACIÓN & ESPACIO DE ENCUENTROS
+       ========================================================================== -->
+  <section class="section section-bg-cream" id="detalles">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up" data-aos-duration="750">
+        <div class="section-kicker">
+          <span class="section-kicker-dash"></span>
+          <span class="section-kicker-text">SEDE & ENCUENTROS</span>
+        </div>
+        <h2 class="section-title">Nuestra Ubicación & Espacio</h2>
+        <p class="section-subtitle">
+          Un punto de encuentro abierto para crecer, ministrar en comunión y encender el altar de adoración.
+        </p>
+      </div>
+
+      <div class="logistics-grid">
+        <div class="event-details-card" data-aos="fade-right" data-aos-duration="850">
+          <div>
+            <span class="badge-tag"><i class="fa-solid fa-church"></i> Espacio de Formación & Comunión</span>
+            <div class="event-details-list">
+              <div class="detail-row">
+                <div class="detail-icon"><i class="fa-solid fa-location-dot"></i></div>
+                <div class="detail-info">
+                  <h4>Sede Principal</h4>
+                  <p><strong>Calle 453 N° 1665</strong>, Gutiérrez (Berazategui, Bs. As.)</p>
+                </div>
+              </div>
+
+              <div class="detail-row">
+                <div class="detail-icon"><i class="fa-regular fa-calendar-check"></i></div>
+                <div class="detail-info">
+                  <h4>Talleres y Plenarias</h4>
+                  <p>Encuentros presenciales, módulos prácticos y tiempos de altar</p>
+                </div>
+              </div>
+
+              <div class="detail-row">
+                <div class="detail-icon"><i class="fa-solid fa-users"></i></div>
+                <div class="detail-info">
+                  <h4>Comunidad Abierta</h4>
+                  <p>Presencial · Para músicos, cantantes y toda la congregación</p>
+                </div>
+              </div>
+
+              <div class="detail-row">
+                <div class="detail-icon"><i class="fa-regular fa-bell"></i></div>
+                <div class="detail-info">
+                  <h4>Próximas Fechas & Cupos</h4>
+                  <p>Inscripciones activas para las próximas ediciones de capacitación</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <a href="https://wa.me/5491138095667?text=%C2%A1Hola!%20Deseo%20conocer%20las%20pr%C3%B3ximas%20fechas%20de%20talleres%20y%20encuentros%20de%20La%20Voz%20del%20Adorador"
+            target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="justify-content: center;">
+            <i class="fa-brands fa-whatsapp"></i>
+            <span>Consultar Próximas Fechas</span>
+          </a>
+        </div>
+
+        <!-- Tarjeta de Mapa / Ubicación Interactiva Google Maps -->
+        <div class="map-card" id="mapa-ubicacion" data-aos="fade-left" data-aos-duration="850">
+          <div class="map-header-bar">
+            <div class="map-header-title">
+              <i class="fa-solid fa-map-location-dot"></i>
+              <div>
+                <strong>Mapa de Ubicación</strong>
+                <span>Calle 453 N° 1665, Gutiérrez (Berazategui)</span>
+              </div>
+            </div>
+            <button class="map-copy-btn" id="copy-address-btn" title="Copiar dirección al portapapeles"
+              aria-label="Copiar dirección Calle 453 N° 1665 Gutiérrez">
+              <i class="fa-regular fa-copy"></i>
+              <span id="copy-btn-text">Copiar Dirección</span>
+            </button>
+          </div>
+
+          <div class="map-embed-wrapper">
+            <iframe title="Mapa de ubicación en Gutiérrez - Calle 453 N° 1665"
+              src="https://maps.google.com/maps?q=Calle+453+1665,+Guti%C3%A9rrez,+Berazategui&t=&z=17&ie=UTF8&iwloc=&output=embed"
+              width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+
+            <div class="map-floating-chip">
+              <i class="fa-solid fa-location-dot"></i>
+              <span>Calle 453 N° 1665</span>
+            </div>
+          </div>
+
+          <div class="map-footer">
+            <div class="map-address-text">
+              <i class="fa-solid fa-car-side" style="color: var(--c-caramel-dark); font-size: 1.25rem;"></i>
+              <div>
+                <strong>¿Cómo llegar?</strong>
+                <span>Calle 453 N° 1665, Gutiérrez (Berazategui)</span>
+              </div>
+            </div>
+            <div class="map-footer-actions">
+              <a href="https://www.google.com/maps/dir/?api=1&destination=Calle+453+1665,+Guti%C3%A9rrez,+Berazategui"
+                target="_blank" rel="noopener noreferrer" class="btn btn-primary"
+                style="padding: 0.55rem 1.15rem; font-size: 0.85rem;">
+                <i class="fa-solid fa-diamond-turn-right"></i>
+                <span>Cómo llegar</span>
+              </a>
+              <a href="https://maps.google.com/?q=Calle+453+1665,+Guti%C3%A9rrez,+Berazategui"
+                target="_blank" rel="noopener noreferrer" class="btn btn-secondary"
+                style="padding: 0.55rem 0.95rem; font-size: 0.85rem;">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                <span>Ver en Maps</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       COMUNIDAD & REDES SOCIALES
+       ========================================================================== -->
+  <section class="section" id="comunidad">
+    <div class="container">
+      <div class="instagram-banner" data-aos="zoom-in" data-aos-duration="850">
+        <div class="ig-content">
+          <div class="ig-icon-badge">
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+          <div class="ig-info">
+            <h3>Nuestra Comunidad en Instagram</h3>
+            <p>Conéctate con nosotros, comparte devocionales y sigue las novedades en <strong>@voz_del_adorador</strong>
+            </p>
+          </div>
+        </div>
+        <a href="https://www.instagram.com/voz_del_adorador/" target="_blank" rel="noopener noreferrer"
+          class="btn btn-primary">
+          <i class="fa-brands fa-instagram"></i>
+          <span>Visitar @voz_del_adorador</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       FOOTER
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h4>La Voz del Adorador</h4>
+          <p>
+            Un ámbito de formación para conocer al adorador de adoradores, Cristo por excelencia. La adoración es un
+            estilo de vida que nos llena de esperanza y plenitud eterna 24/7.
+          </p>
+          <div style="margin-top: 1.2rem;">
+            <span class="handwritten" style="color: var(--c-sand); font-size: 1.4rem;">
+              En su voz encontramos dirección ♡
+            </span>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <h5>Navegación</h5>
+          <ul>
+            <li><a href="#hero">Inicio</a></li>
+            <li><a href="#proposito">Propósito & Fundamento</a></li>
+            <li><a href="#para-quien">¿Para quién es?</a></li>
+            <li><a href="#talleres">Talleres & Plenarias</a></li>
+            <li><a href="#detalles">Fecha y Ubicación</a></li>
+            <li><a href="#comunidad">Comunidad</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h5>Contacto Directo</h5>
+          <ul>
+            <li>
+              <a href="https://wa.me/5491138095667" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-whatsapp" style="color: #25D366; margin-right: 0.4rem;"></i> 11 38 09 56 67
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/voz_del_adorador/" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-instagram" style="color: var(--c-caramel); margin-right: 0.4rem;"></i>
+                @voz_del_adorador
+              </a>
+            </li>
+            <li>
+              <span><i class="fa-solid fa-location-dot" style="color: var(--c-sand); margin-right: 0.4rem;"></i> Calle 453 N° 1665, Gutiérrez</span>
+            </li>
+            <li style="margin-top: 0.5rem;">
+              <span class="badge-tag"
+                style="background: rgba(255,255,255,0.1); color: var(--c-sand); border-color: rgba(255,255,255,0.2);">
+                <i class="fa-solid fa-heart"
+                  style="color: var(--c-sand); font-size: 0.72rem; margin-right: 0.2rem;"></i> Talleres & Formación
+                Continua
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-copy">
+          &copy; <span id="year-copy">2026</span> La Voz del Adorador. Todos los derechos reservados.
+        </div>
+        <div class="footer-dev">
+          Desarrollado con <i class="fa-solid fa-heart footer-heart" aria-hidden="true"></i> por
+          <a href="https://tecnologiasbraian.com.ar" target="_blank" rel="noopener noreferrer"
+            class="dev-brand-link">Tecnologias Braian</a>
+        </div>
+        <div class="footer-motto">
+          "Que nada sea un impedimento para poder crecer"
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       [MÓDULO TEMPORAL] MODAL DE INAUGURACIÓN & TALLER 24 DE OCTUBRE
+       (Para retirar este evento una vez finalizado el 24 de Octubre, simplemente
+       borra o comenta este bloque completo sin afectar el resto de la web)
+       ========================================================================== -->
+  <div class="event-modal-backdrop" id="inauguration-modal" aria-hidden="true" role="dialog"
+    aria-labelledby="modal-event-title">
+    <div class="event-modal-card">
+      <button class="event-modal-close" id="close-event-modal-btn" aria-label="Cerrar ventana emergente">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <div class="event-modal-header">
+        <span class="badge-tag" style="background: rgba(196,154,108,0.18); color: var(--c-caramel-dark);">
+          <i class="fa-solid fa-sparkles"></i> Taller de Capacitación · Apertura Especial
+        </span>
+        <h3 class="event-modal-title" id="modal-event-title">
+          La Voz del <span style="color: var(--c-caramel-dark);">Adorador</span>
+        </h3>
+        <p class="handwritten" style="font-size: 1.45rem; color: var(--c-caramel-dark); margin-top: -0.2rem;">
+          "Necesitamos volver a donde todo comenzó" ♡
+        </p>
+      </div>
+
+      <div class="event-modal-body">
+        <div class="event-modal-highlight-box">
+          <div class="em-item">
+            <div class="em-icon"><i class="fa-regular fa-calendar-check"></i></div>
+            <div>
+              <strong>Sábado 24 de Octubre</strong>
+              <span>A partir de las 11:00 hs</span>
+            </div>
+          </div>
+          <div class="em-item">
+            <div class="em-icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div>
+              <strong>Calle 453 N° 1665</strong>
+              <span>Gutiérrez (Berazategui)</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contador Regresivo dentro del Modal -->
+        <div class="modal-countdown">
+          <div class="modal-cd-header">
+            <span><i class="fa-regular fa-clock"></i> Tiempo restante para el taller</span>
+            <span class="pulse-tag" style="color: var(--c-coffee-dark);"><span class="pulse-dot"></span> Cupos
+              Limitados</span>
+          </div>
+          <div class="countdown-timer modal-timer">
+            <div class="time-unit">
+              <span class="time-num" id="cd-days">00</span>
+              <span class="time-label">Días</span>
+            </div>
+            <div class="time-sep" style="color: var(--c-sand);">:</div>
+            <div class="time-unit">
+              <span class="time-num" id="cd-hours">00</span>
+              <span class="time-label">Horas</span>
+            </div>
+            <div class="time-sep" style="color: var(--c-sand);">:</div>
+            <div class="time-unit">
+              <span class="time-num" id="cd-minutes">00</span>
+              <span class="time-label">Min</span>
+            </div>
+            <div class="time-sep" style="color: var(--c-sand);">:</div>
+            <div class="time-unit">
+              <span class="time-num" id="cd-seconds">00</span>
+              <span class="time-label">Seg</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal-features-mini">
+          <span><i class="fa-solid fa-book-open"></i> Plenarias</span>
+          <span><i class="fa-solid fa-book-bookmark"></i> Módulos</span>
+          <span><i class="fa-solid fa-fire"></i> Altar en vivo</span>
+          <span><i class="fa-solid fa-mug-hot"></i> Break & Café</span>
+        </div>
+
+        <p class="modal-note">
+          ¿Es solo para músicos y cantantes? <strong>¡No!</strong> Es para toda la comunidad que sienta el llamado de
+          expresar a Cristo. ¡Que nada sea hoy un impedimento para poder crecer!
+        </p>
+
+        <div class="modal-actions">
+          <a href="https://wa.me/5491138095667?text=%C2%A1Hola!%20Deseo%20reservar%20mi%20lugar%20para%20la%20Apertura%20del%20Taller%20La%20Voz%20del%20Adorador%20el%2024%20de%20Octubre."
+            target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-block">
+            <i class="fa-brands fa-whatsapp"></i>
+            <span>Reservar Lugar por WhatsApp (11 38 09 56 67)</span>
+          </a>
+          <button class="btn btn-secondary btn-block" id="modal-dismiss-btn"
+            style="margin-top: 0.6rem; font-size: 0.88rem; padding: 0.7rem;">
+            Continuar navegando en el sitio
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ================= [FIN MÓDULO TEMPORAL DE INAUGURACIÓN] ================= -->
+
+  <!-- Botón Flotante de WhatsApp permanente -->
+  <a href="https://wa.me/5491138095667?text=%C2%A1Hola!%20Deseo%20inscribirme%20al%20Taller%20La%20Voz%20del%20Adorador"
+    class="floating-whatsapp" target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+    <span class="tooltip">Inscribirme por WhatsApp</span>
+  </a>
+
+  <!-- Librería AOS.js (Animaciones de Scroll) -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+  <!-- Script interactivo -->
+  <script src="js/script.js"></script>
+</body>
+
+</html>
